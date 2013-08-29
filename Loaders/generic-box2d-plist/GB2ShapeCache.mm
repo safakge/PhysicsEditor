@@ -193,7 +193,7 @@ public:
             basicData.friction = [[fixtureData objectForKey:@"friction"] floatValue];
             basicData.density = [[fixtureData objectForKey:@"density"] floatValue];
             basicData.restitution = [[fixtureData objectForKey:@"restitution"] floatValue];
-            basicData.isSensor = [[fixtureData objectForKey:@"fixtureData"] boolValue];
+            basicData.isSensor = [[fixtureData objectForKey:@"isSensor"] boolValue];
             int callbackData = [[fixtureData objectForKey:@"userdataCbValue"] intValue];
             
             NSString *fixtureType = [fixtureData objectForKey:@"fixture_type"];
